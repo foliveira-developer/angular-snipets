@@ -1,0 +1,9 @@
+npm install -g @angular/cli
+# -g = global
+cd myFolder
+ng new project-folder-name
+cd project-folder-name
+
+# Build source code and run server
+ng serve
+

@@ -1,0 +1,23 @@
+In the root of the project
+
+Files outside of folder are used for project configuration
+
+.angular-cli.json
+Import styles like node_modules bootstrap and generic styles.css
+
+/e2e
+End to End testing
+
+
+/src/app
+The app component is the one component what we see at the page in the first time (like an index.html)
+
+/src/app/app.module.ts
+Here is where you add imports to the module. Adding import { ModuleName } ... and in the NgModule imports array
+
+
+/assets
+Images of the file
+
+/environments
+Environment variables
