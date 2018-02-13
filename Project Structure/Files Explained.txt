@@ -13,8 +13,12 @@ End to End testing
 The app component is the one component what we see at the page in the first time (like an index.html)
 
 /src/app/app.module.ts
-Here is where you add imports to the module. Adding import { ModuleName } ... and in the NgModule imports array
+ - Here is where you add imports to the module. Adding import { ModuleName } ... and in the NgModule imports array
+ - This file also contains a bootstrap which is an array of components that are started when angular is initialized and sent to the main.ts
 
+/src/main.ts
+ - Typescript file which is the first code that is run
+bootstrapModule(AppModule) starts 
 
 /assets
 Images of the file

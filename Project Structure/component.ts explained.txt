@@ -1,0 +1,4 @@
+app.component.ts
+
+Component decorator has (@Component):
+ - selector: string as a value (tag identifier used in index.html so angular knows to translate the tag to the component.html)
