@@ -1,4 +1,26 @@
 app.component.ts
 
+1 - A component is just a class. First thing should be done is exporting the class
+export class ComponentName {
+
+}
+
+2 - Then we need to add a decorator so angular knows what type of class is this.
+@Component()
+//export class...
+
+Although, angular does not know what is this, we need to add a import to access component
+import {Component} from '@angular/core';
+
+Now @Component() knows what is this, yet we need to configurate it
+
+selector will be the id to be used in other component as an HTML tag
+templateUrl: This external file will hold the html code of this component. Path starts in app folder
+
+@Component({
+	selector: 'app-componentName',
+	templateUrl: './componentName.component.html'
+})
+
 Component decorator has (@Component):
  - selector: string as a value (tag identifier used in index.html so angular knows to translate the tag to the component.html)

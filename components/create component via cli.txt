@@ -1,0 +1,6 @@
+You can create component via cli
+
+ng generate component servers
+
+IS THE SAME AS
+ng g c servers

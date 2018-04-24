@@ -1,0 +1,11 @@
+Components consist in the entire app, devided between the multiple UI elements. In normal app, the container, sidebar and header might be a component! Even the single buttons might be components.
+
+Components are easy to update and reuse!
+
+To manually create a component the following should be done:
+
+1 - Create a folder in /app
+2 - Create name.component.ts
+3 - Create name.component.html
+4 - Add basic component structure
+5 - Add component to app.module.ts

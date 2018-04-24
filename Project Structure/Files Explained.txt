@@ -11,6 +11,7 @@ End to End testing
 
 /src/app
 The app component is the one component what we see at the page in the first time (like an index.html)
+IMPORTANT: All the app related components will be added to this folder
 
 /src/app/app.module.ts
  - Here is where you add imports to the module. Adding import { ModuleName } ... and in the NgModule imports array

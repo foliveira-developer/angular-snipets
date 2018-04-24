@@ -1,0 +1,11 @@
+Modules are used to bundle components in packages
+Only bigger projects might interest use more than one app module
+
+This module has a decorator named NgModule.
+This as the following configurations:
+
+ declarations: Components to be used
+ bootstrap: Default component run on start up
+
+ NOTE: By default Angular will not read all the files. Thats why we need to declare new components in declarations config
+ NOTE: Components in declarations need to be imported (ignore the extension like .ts)
