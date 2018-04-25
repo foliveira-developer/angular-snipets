@@ -14,8 +14,13 @@ import {Component} from '@angular/core';
 
 Now @Component() knows what is this, yet we need to configurate it
 
-selector will be the id to be used in other component as an HTML tag
-templateUrl: This external file will hold the html code of this component. Path starts in app folder
+selector: will be unique id to be used in other component as an HTML tag (normally used as this is, with the exception of directives)
+			selector also can also be an attribute by adding [] and using e.g. <div ComponentAtribute></div>
+			also using a .NameCoponent can then be used as a class e.g. <div class = "ComponentClass"></div>
+templateUrl: This external file will hold the html code of this component. Path starts in app folder. It can also be added raw html to this.
+styleUrls: hholds array paths to css file OR
+style: array of strings with css code (divided by class, element, etc)
+
 
 @Component({
 	selector: 'app-componentName',

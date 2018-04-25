@@ -1,0 +1,13 @@
+DataBinding is comunication, between the TypeScript and the template (HTML)
+
+There are 3 types of binding:
+
+Output data
+    String Interpolation {{ data }} - Use it for printing values in the DOM
+    Porperty Binding: [property]="data" - Use if for changing property values of CSS
+
+Event binding (React to User Events
+    Event Binding (event) = "expressing" - Use it to do logic on button click
+
+Combination: Two way databinding
+    [(ngModel)]="data" - Use it to update data in TypeScript and also in DOM. ngModel is smart and uses the key events (e.g. using in a <input> will update on typing)
